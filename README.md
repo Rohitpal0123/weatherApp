@@ -27,11 +27,11 @@ This Weather Application is built using React with Vite, providing a fast and ef
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Rohitpal0123/weatherApp
    ```
 2. Navigate to the project directory:
    ```bash
-   cd <project-directory>
+   cd weatherApp
    ```
 3. Install dependencies:
    ```bash
