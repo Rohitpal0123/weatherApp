@@ -1,21 +1,13 @@
 # Weather Application
 
-This Weather Application is built using React with Vite, providing a fast and efficient development experience. It features user registration, login, and the ability to view weather data. The application ensures a seamless user experience with persistent sessions and protected routes.
-
-## React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
+This Weather Application is built using React with Vite, providing a fast and efficient development experience. It has features such as **user registration, login, and the ability to view and log live weather data based on city** . The application ensures a seamless user experience with persistent sessions and protected routes.
 
 ## Features
 
-- **User Registration and Login**: Securely register and log in users. User data is stored using a JSON server.
-- **Weather Data Display**: Fetch and display weather data for various locations.
+- **User Management(Register and Login)**: Securely register and LogIn users. User data is stored using a JSON server.
+- **Live weather data**: Fetch and display weather data for various locations using third party API openweather.
+  - It will Log these 5 details: **City, Temperature, Pressure, Humidity, Wind Speed and Wind Degree**
+  - And auto-retrieve data after every 2 seconds
 - **Persistent User Sessions**: User sessions are maintained even after the page is refreshed, ensuring a seamless experience.
 - **Protected Routes**: Some routes are accessible only to authenticated users, enhancing the application's security.
 
@@ -23,7 +15,7 @@ Currently, two official plugins are available:
 
 - `Login`: Handles user login, including input validation and error handling.
 - `Register`: Manages user registration.
-- `Weather`: Displays weather data for the user's selected location.
+- `Weather`: Displays weather data for the user's searched location.
 - `ProtectedRoute`: Guards certain routes to ensure they are accessible only to authenticated users.
 
 ## Prerequisites
@@ -65,25 +57,12 @@ This command starts the JSON server on port 3000 and the React application. If t
 ## Screenshots
 
 - **Login Page**
+<img width="1470" alt="Screenshot 2024-07-06 at 1 06 11 AM" src="https://github.com/Rohitpal0123/weatherApp/assets/73094806/c61f0cf8-0961-44e7-8652-51b8e795ce48">
 
-  ![Login Page](path/to/login_page_screenshot.png)
-
+  
 - **Registration Page**
+<img width="1470" alt="Screenshot 2024-07-06 at 1 07 09 AM" src="https://github.com/Rohitpal0123/weatherApp/assets/73094806/ec735ee0-b1c5-41c7-a0df-acb5cc9ad330">
 
-  ![Registration Page](path/to/registration_page_screenshot.png)
 
-- **Weather Data Page**
-
-  ![Weather Data Page](path/to/weather_data_page_screenshot.png)
-
-## Contributing
-
-Contributions are welcome. Please fork the repository and submit a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-Ensure to replace placeholders (like `<repository-url>`, `<project-directory>`, and `path/to/...`) with actual values relevant to your project.
+- **Weather App Home Page**
+<img width="1470" alt="Screenshot 2024-07-06 at 1 09 19 AM" src="https://github.com/Rohitpal0123/weatherApp/assets/73094806/e5a5dc60-c1e4-496b-af8b-354383d6ee21">
